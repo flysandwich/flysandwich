@@ -1,0 +1,12 @@
+import torch
+a = torch.tensor([2, 3])
+print(a.device)
+print(torch.seed())
+print(torch.seed())
+print(torch.seed())
+print(torch.seed())
+torch.manual_seed(0)
+print(torch.randn(4))
+print(torch.randn(4))
+print(torch.randn(4))
+print(torch.randn(4))
